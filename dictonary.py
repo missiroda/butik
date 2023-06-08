@@ -1,0 +1,49 @@
+#dictonary in phyton
+student={
+    'name':"Iroda",
+    'family':"Qodirova",
+    'age':30,
+    }
+print(student['name'])
+
+GM={
+    'name':"GM",
+    'brend':"Chevrolet",
+    'director':"Javohir",
+    'yil':2022,
+    'filial':8,
+    }
+print(GM)
+GM['name']="Ravon"
+GM['director']="Muhammad"
+print(GM)
+GM['mashinalar_soni']=20
+print(GM)
+GM.update({'mashinalar_soni':20})
+print(GM)
+GM.pop('director')
+print(GM)
+del GM['filial']
+print(GM)
+GM.popitem()
+print(GM)
+GM.clear()
+print(GM)
+dct={
+    1:"Iroda",
+    2:"Yulduz",
+    3:"Muhayyo",
+    }
+print(dct[3])
+print(dct.get(3))
+print(dct.get(4,'salom'))
+student={
+    'name':"Aziza",
+    'family':"Hakimova",
+    'age' :18,
+    'study':'TATU',
+    "number_child":2,
+    "children":["Aziz","Zarina"]
+    }
+print(student.get("children")[0])
+print(student["children"][0])
